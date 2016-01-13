@@ -4,19 +4,17 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	/*background: url(../images/screen@2x.jpg);
-	background-size: cover;
-	mask-image: url(../images/masks/smash-2-mask.png);*/
+	
 
 }
 img {
 	position: absolute;
 	top: 0;
 	left: 0;
-	/*width: 386px;
-	height: 708px;*/
 	margin: 0;
 	padding: 0;
+	width: 100%;
+	height: 100%;
 }
 #blurBG {
 	-webkit-filter: blur(4px);
@@ -25,6 +23,26 @@ img {
 	     -o-filter: blur(4px);
 	        filter: blur(4px);
 }
+
+
+/* smash 1 */
+/*#throughGlass {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	mask-image: url(../images/masks/mask-1-alpha.png);
+	-webkit-mask-image: url(../images/masks/mask-1-alpha.png);
+	-webkit-mask-size: 100% 100%;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: 0 0;
+	mask-type: alpha;
+}*/
+
+
+/* smash 2 */
 #throughGlass {
 	position: absolute;
 	top: 0;
@@ -32,10 +50,26 @@ img {
 	width: 100%;
 	height: 100%;
 	
-	mask-image: url(../images/masks/mask1-resize.png);
-	-webkit-mask-image: url(../images/masks/mask1-resize.png);	
+	mask-image: url(../images/masks/mask-2-alpha.png);
+	-webkit-mask-image: url(../images/masks/mask-2-alpha.png);
 	-webkit-mask-size: 100% 100%;
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: 0 0;
 	mask-type: alpha;
 }
+
+/* smash 3 */
+/*#throughGlass {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	mask-image: url(../images/masks/mask-3-alpha.png);
+	-webkit-mask-image: url(../images/masks/mask-3-alpha.png);
+	-webkit-mask-size: 100% 100%;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: 0 0;
+	mask-type: alpha;
+}*/
